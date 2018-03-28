@@ -1,0 +1,336 @@
+body{
+
+    font-family: 'Roboto', sans-serif;.
+    font-size:15px;
+    background-color: white;
+    padding:0;
+    margin:0;  overflow-x: hidden;
+}
+
+.current{
+
+    background-color: rgb(169,169,169, 0.7);
+    padding:10px 5px 10px 5px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+/*
+
+#8b8589	(139,133,137)
+#989898	(152,152,152)
+#838996	(131,137,150)
+#979aaa	(151,154,170)
+#4c516d
+
+*/
+
+
+.container{
+    margin:auto;
+    width: 80%;
+    overflow:hidden;
+
+}
+
+input, textarea{
+    
+        width: 100%;
+    padding: 6px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+header{
+    padding:0;
+    background-color:white;
+    min-height:60px;
+    border-bottom:#76323F 3px solid;
+}
+
+header a{
+
+    text-decoration: none;
+    color: #565656;
+    font-size:1.4em;
+
+
+}
+
+header a:hover{
+    color: #76323F;
+    font-weight: 700;
+}
+
+header ul{
+
+    margin:0;
+    padding:0;
+
+}
+
+header li{
+
+    float:left;
+    display:inline;
+    padding:10px 20px 10px 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    color: #565656;
+    margin:15px 0 0 0;
+}
+
+header nav{
+
+    float: right;
+    margin-top:20px;
+}
+
+
+
+#window{
+    min-height: 400px;
+    color: whitesmoke;
+    background-image: url("../images/window.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align:center;
+            background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+
+
+}
+#window p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#window h1{
+    margin-top:50px;
+    font-size:2.5em;
+
+}
+
+#windowabout{
+    min-height: 300px;
+    color: whitesmoke;
+    background-image: url("../images/about.jpeg");
+    background-repeat: no-repeat;
+    text-align:center;
+    padding-top: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+#windowabout p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#windowabout h1{
+    margin-top:50px;
+    font-size:2.5em;
+
+}
+
+.button1{
+    background-color: orangered;
+    color:white;
+    font-size: 1em;
+    border-radius: 2px;
+    border:none;
+    padding:3px 15px 5px 15px;
+    outline:none;
+}
+
+.button1:hover{
+
+    background-color:#cc3700;
+
+}
+#subscribe{
+    padding:2px;
+    color:white;
+    background-color:#76323F;
+}
+#subscribe h3{
+    float:left;
+    color: white;
+
+
+}
+
+#subscribe form{
+    margin-top: 10px;
+    padding:5px;
+    float:right;
+}
+
+#subscribe input[type="email"]{
+    width: 250px;
+    height: 25px;
+}
+
+#boxes{
+    margin-top:10px;
+    margin-bottom:50px;
+}
+footer{
+
+    background-color:#76323F;
+    height: 40px;
+    padding-top:3px;
+    text-align:center;
+    color: #D7CEC7;
+    bottom:0;
+  
+}
+#boxes .box{
+    color: black;
+    width:30%;
+    float:left;
+    text-align: center;
+    padding:0 15px 0 15px;
+}
+
+#sidebar{
+
+    float:right;
+    width:30%;
+    margin:20px 0 5px 0;
+    padding:5px;
+
+}
+
+#sidebar h1{
+
+    font-size: 1.4em;
+    color:#76323F;
+}
+
+#contact{
+
+    float:right;
+    width:30%;
+    margin:20px 0 5px 0;
+    padding:5px;
+
+}
+
+
+.dark{
+    padding:15px;
+    background-color:rgb(211, 211, 211, 0.6);
+    border-radius: 10px;
+    max-width:700px;
+    margin:auto;
+
+}
+#mid-col{
+
+    float:left;
+    width:60%;
+    margin-top:5px;
+}
+
+#mid-col h1{
+
+    font-size: 2em;
+    color:#76323F;
+}
+
+
+
+@media only screen and (max-width: 900px) and (min-width: 100px) {
+
+    #sidebar{
+        display: inline-block;
+        float: left;
+        width:100% !important;
+        margin: 20px 0 5px 0;
+        padding: 5px;
+        text-align: center;
+
+    }
+    #window{
+    min-height: 320px;
+    color: whitesmoke;
+    background-image: url("../images/window.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align:center;
+          background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+    
+
+    #windowabout{
+      min-height: 320px;
+    color: whitesmoke;
+    background-image: url("../images/about.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align:center;
+    padding-top: 150px;
+          background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+    
+       #windowabout p{
+    margin-bottom: -10px;
+    }
+    #contact{
+        display: inline-block;
+        float: left;
+        width:100% !important;
+        margin: 20px 0 5px 0;
+        padding: 5px;
+        text-align: center;
+
+    }
+    #mid-col{
+
+        float:left;
+        width:100% !important;
+        margin-top:5px;
+        text-align: center;
+    }
+
+    #boxes .box{
+        color: black;
+        width:100% !important;
+        float:left;
+        text-align: center;
+        padding:0 15px 0 15px;
+    }
+    #subscribe h3 {
+    
+        margin: 0;
+    
+    }
+    #subscribe form {
+   
+    padding: 0;
+  
+}
+
+} 
