@@ -1,6 +1,6 @@
 body{
 
-    font-family: 'Roboto', sans-serif;.
+    font-family: 'Roboto', sans-serif;
     font-size:15px;
     background-color: white;
     padding:0;
@@ -185,7 +185,10 @@ footer{
     padding-top:3px;
     text-align:center;
     color: #D7CEC7;
-    bottom:0;
+    bottom:0px;
+    position:fixed;
+    left:0px;
+    right:0px;
   
 }
 #boxes .box{
