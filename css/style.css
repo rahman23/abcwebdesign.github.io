@@ -260,7 +260,7 @@ footer{
 
 
 
-@media only screen and (max-width: 900px) and (min-width: 100px) {
+@media only screen and (max-width: 1200px) and (min-width: 100px) {
 
     #sidebar{
         display: inline-block;
